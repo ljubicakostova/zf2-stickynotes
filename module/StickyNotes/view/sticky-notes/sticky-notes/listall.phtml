@@ -1,0 +1,13 @@
+<?php
+// Turn off all error reporting
+error_reporting(0);
+
+?>
+<h1>All notes!</h1>
+<div id="sticky-notes-all">
+    <?php foreach($stickynotes as $stickynote):?>
+        <hr/> <h4><?php echo "Id: ".$stickynote->getId()?></h4>
+        <h4><?php echo "Date: ".$stickynote->getCreated() ?></h4>
+        <h5><?php echo "Text: ".$stickynote->getNote()?></h5>
+    <?php endforeach; ?>
+</div>
