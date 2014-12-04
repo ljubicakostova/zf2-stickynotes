@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Big-Sticky-Notes
 ================
     ______ _         _____                 _
@@ -74,3 +75,7 @@ Virtual Host
 ------------
 Afterwards, set up a virtual host to point to the public/ directory of the
 project and you should be ready to go!
+=======
+zf2-stickynotes
+===============
+>>>>>>> 846c71a960265ff723aac37e7e822ef22a5316fb
